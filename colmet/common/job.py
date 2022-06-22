@@ -326,7 +326,7 @@ class Job(object):
         '''
         Update the metrics for all the job's children
         '''
-        new_timestamp = int(time.time())
+        new_timestamp = time.time()
         self.duration = new_timestamp - self.timestamp
         self.timestamp = new_timestamp
 

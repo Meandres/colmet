@@ -62,8 +62,8 @@ setup(
     license="GNU GPL",
     entry_points={
         'console_scripts': [
-            'colmet-node = colmet.node.main:main',
-            'colmet-collector = colmet.collector.main:main',
+            'python-node = colmet.node.main:main',
+            'python-collector = colmet.collector.main:main',
         ],
     },
     classifiers=[
